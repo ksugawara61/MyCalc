@@ -12,6 +12,8 @@
 		932587F31F10D12D009A0665 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 932587F11F10D12D009A0665 /* Main.storyboard */; };
 		932587F51F10D12D009A0665 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 932587F41F10D12D009A0665 /* Assets.xcassets */; };
 		932587F81F10D12D009A0665 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 932587F61F10D12D009A0665 /* LaunchScreen.storyboard */; };
+		932588001F1100F3009A0665 /* PercentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932587FF1F1100F3009A0665 /* PercentViewController.swift */; };
+		932588021F1106F5009A0665 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932588011F1106F5009A0665 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		932587F41F10D12D009A0665 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		932587F71F10D12D009A0665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		932587F91F10D12D009A0665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		932587FF1F1100F3009A0665 /* PercentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PercentViewController.swift; path = ../PercentViewController.swift; sourceTree = "<group>"; };
+		932588011F1106F5009A0665 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 			children = (
 				932587ED1F10D12D009A0665 /* AppDelegate.swift */,
 				932587EF1F10D12D009A0665 /* ViewController.swift */,
+				932587FF1F1100F3009A0665 /* PercentViewController.swift */,
 				932587F11F10D12D009A0665 /* Main.storyboard */,
 				932587F41F10D12D009A0665 /* Assets.xcassets */,
 				932587F61F10D12D009A0665 /* LaunchScreen.storyboard */,
 				932587F91F10D12D009A0665 /* Info.plist */,
+				932588011F1106F5009A0665 /* ResultViewController.swift */,
 			);
 			path = MyCalc;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			files = (
 				932587F01F10D12D009A0665 /* ViewController.swift in Sources */,
 				932587EE1F10D12D009A0665 /* AppDelegate.swift in Sources */,
+				932588001F1100F3009A0665 /* PercentViewController.swift in Sources */,
+				932588021F1106F5009A0665 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
